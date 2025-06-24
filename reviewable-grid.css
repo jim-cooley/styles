@@ -31,9 +31,7 @@ div[data-v-10559aa6]>.panel.root[data-reflow-key='topLevelDiscussions'] {
 }
 div[data-v-10559aa6]>.panel.root[data-reflow-key='diffControls'] {
     grid-area: 3/1/4/2;
-    margin-left: var(--flow-offset-matrix,var(--flow-offset-info));
 }
 div[data-v-10559aa6]>.panel.root[data-reflow-key='fileMatrix'] {
     grid-area: 4/1/5/2;
-    margin-left: var(--flow-offset-matrix, var(--flow-offset-info));
 }
