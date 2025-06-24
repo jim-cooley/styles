@@ -176,6 +176,21 @@ code.hljs {
   font-weight: bold;
 }
 
+.tab,
+.no-newline,
+.trailing {
+    color: #D95C5C;
+}
+
+.tab:before {
+    content: "\00bb\00a0\00a0\00a0";
+}
+
+.no-newline:before {
+    content: "\00a0\20e0\23ce";
+}
+
+
 .two.column.diff .diff.line:not(.keep) .line.wrapper:not(.empty) .left.line.content {
     background-color: #FBDDDD;
     /* rgba(91, 220, 114, 0.20) on white */
@@ -196,4 +211,5 @@ code.hljs {
 
 .two.column.diff .diff.line.base .right.line.content .delta,
 .two.column.diff .diff.line.whitespace .right.line.content .delta {
-    background-color: rgba(91, 220, 114, 0.15); }
+    background-color: rgba(91, 220, 114, 0.15);
+}
