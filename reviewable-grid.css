@@ -1,7 +1,7 @@
 /*
 CSS to display the portions of the Reviewables page as a grid for larger monitors
 */
-div[data-v-10559aa6] {
+div.panel.reflow > div.relative > div[data-v-10559aa6] {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: start;
@@ -22,21 +22,16 @@ div[data-v-10559aa6]>.panel.root[data-reflow-key='pullRequest'] {
 }
 div[data-v-10559aa6]>.panel.root[data-reflow-key='checks'] {
     grid-area: 1/2/3/3;
-    margin-left: 0;
 }
 div[data-v-10559aa6]>.panel.root[data-reflow-key='participants'] {
     grid-area: 2/1/3/2;
-    margin-left: 0;
 }
 div[data-v-10559aa6]>.panel.root[data-reflow-key='topLevelDiscussions'] {
     grid-area: 2/2/3/3;
-    margin-left: 0;
 }
 div[data-v-10559aa6]>.panel.root[data-reflow-key='fileMatrix'] {
     grid-area: 3/1/4/2;
-    margin-left: 0;
 }
 div[data-v-10559aa6]>.panel.root[data-reflow-key='fileMatrix'] {
     grid-area: 4/1/5/2;
-    margin-left: 0;
 }
