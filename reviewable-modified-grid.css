@@ -58,6 +58,11 @@ div[data-v-10559aa6]>.panel.root {
   margin-left: 0;
 }
 
+/* for some reason fileMatrix was not responding to the above */
+.panel.root[type=matrix][data-v-6d6f2bcb]:not(.bare):not([inline]) {
+  margin-left: 0;
+}
+
 div[data-v-10559aa6]>.panel.root[data-reflow-key='pullRequest'] {
   grid-area: 1/1/2/2;
 }
