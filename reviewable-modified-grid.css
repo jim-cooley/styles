@@ -67,12 +67,12 @@ div[data-v-10559aa6]>.panel.root[data-reflow-key='pullRequest'] {
   grid-area: 1/1/2/2;
 }
 
-div[data-v-10559aa6]>.panel.root[data-reflow-key='checks'] {
-  grid-area: 2/1/3/2;
-}
-
 div[data-v-10559aa6]>.panel.root[data-reflow-key='participants'] {
   grid-area: 1/2/3/3;
+}
+
+div[data-v-10559aa6]>.panel.root[data-reflow-key='checks'] {
+  grid-area: 2/1/3/2;
 }
 
 div[data-v-10559aa6]>.panel.root[data-reflow-key='topLevelDiscussions'] {
