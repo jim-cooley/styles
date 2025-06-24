@@ -41,6 +41,7 @@ div.panel.reflow>div.relative>div[data-v-10559aa6] {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: start;
+  justify-items: start;
   gap: 1em;
 }
 
