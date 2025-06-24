@@ -51,6 +51,24 @@ div[data-line-number]:not([data-line-number="0"]) div.hljs {
     margin-left: 26px;
 }
 
+/* remove wavy lines on omitted file sections */
+.review-page .file.root .file .wavy.edge {
+    background-image: none;
+}
+
+.review-page .file.root .file .top.wavy.edge {
+    margin-top: 1em;
+    margin-bottom: -0.5em;
+}
+
+.review-page .file.root .file .bottom.wavy.edge {
+    margin-bottom: 0.5em;
+}
+
+.review-page .file.root .file .declaration.include {
+    padding-top: 1em;
+}
+
 pre code.hljs {
   display: block;
   overflow-x: auto;
