@@ -52,9 +52,13 @@ div[data-v-10559aa6]>.panel.root {
   padding: 0;
 }
 
+.panel.root[first-in-row][data-v-6d6f2bcb]:not(.bare),
+.panel.root[type=info][data-v-6d6f2bcb]:not(.bare):not([inline]) {
+  margin-left: 0;
+}
+
 div[data-v-10559aa6]>.panel.root[data-reflow-key='pullRequest'] {
   grid-area: 1/1/2/2;
-  margin-left: 0;
 }
 
 div[data-v-10559aa6]>.panel.root[data-reflow-key='checks'] {
