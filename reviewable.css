@@ -176,6 +176,22 @@ code.hljs {
   font-weight: bold;
 }
 
+div[data-line-number]:not([data-line-number="0"]):before {
+    content: attr(data-line-number);
+    position: absolute;
+    color: #444;
+    /* line number text color */
+    padding: 1px 3px 3px;
+    font-size: x-small;
+    display: block;
+    width: 20px;
+    text-align: right;
+}
+
+div[data-line-number]:not([data-line-number="0"]) div.hljs {
+    margin-left: 26px;
+}
+
 .tab,
 .no-newline,
 .trailing {
